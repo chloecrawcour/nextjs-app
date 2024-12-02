@@ -1,0 +1,35 @@
+{
+    "regions": [
+      {
+        "name": "Rhovanion",
+        "image": "http://placehold.it/194x194",
+        "link": "#"
+      },
+      {
+        "name": "Eriador",
+        "image": "http://placehold.it/194x194",
+        "link": "#"
+      },
+      {
+        "name": "Bay of Belfalas",
+        "image": "http://placehold.it/194x194",
+        "link": "#"
+      },
+      {
+        "name": "Mordor",
+        "image": "http://placehold.it/194x194",
+        "link": "#"
+      },
+      {
+        "name": "The Southwest",
+        "image": "http://placehold.it/194x194",
+        "link": "#"
+      },
+      {
+        "name": "Arnor",
+        "image": "http://placehold.it/194x194",
+        "link": "#"
+      }
+    ]
+  }
+  

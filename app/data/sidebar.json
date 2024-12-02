@@ -1,0 +1,53 @@
+{
+    "sidebar": {
+      "lastMinuteDeals": [
+        {
+          "image": "http://placehold.it/100x100",
+          "availability": "Available Now",
+          "title": "Private Beach",
+          "location": "Lossarnach, Eriado",
+          "link": "blog-detail.html"
+        },
+        {
+          "image": "http://placehold.it/100x100",
+          "availability": "Available on 24 July",
+          "title": "Mountain views",
+          "location": "Hyarnustar, Rhovanion",
+          "link": "blog-detail.html"
+        },
+        {
+          "image": "http://placehold.it/100x100",
+          "availability": "Available 5 July",
+          "title": "Heart of the village",
+          "location": "Minhiriath, Eriador",
+          "link": "blog-detail.html"
+        },
+        {
+          "image": "http://placehold.it/100x100",
+          "availability": "Available 6 July",
+          "title": "The city life",
+          "location": "West Beleriand, Mordor",
+          "link": "blog-detail.html"
+        }
+      ],
+      "activity": [
+        {
+          "image": "http://placehold.it/70x70",
+          "reviewer": "Sam Minnée",
+          "reviewTitle": "The House With No Windows",
+          "reviewText": "Awesome solitary confinement, mate. Spot on. Sweet as.",
+          "time": "Just now",
+          "link": "#"
+        },
+        {
+          "image": "http://placehold.it/70x70",
+          "reviewer": "Ingo Schoomer",
+          "reviewTitle": "The Mistake by the Lake",
+          "reviewText": "Has this house been unit tested?",
+          "time": "37 minutes ago",
+          "link": "#"
+        }
+      ]
+    }
+  }
+  

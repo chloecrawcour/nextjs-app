@@ -1,0 +1,17 @@
+/* nav */
+.navbar-nav {
+    display: flex !important; 
+    flex-direction: row !important; 
+}
+
+/* grid style homepage */
+.grid-style1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+  .grid-style1 .item {
+    width: 33%; 
+    box-sizing: border-box;
+    padding: 0 10px; 
+}
