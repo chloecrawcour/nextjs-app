@@ -1,5 +1,5 @@
 {
-  "name": "my-nextjs-app",
+  "name": "nextjs-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -18,5 +18,8 @@
   "devDependencies": {
     "less": "^4.2.1",
     "webpack": "^5.96.1"
+  },
+  "engines": {
+    "node": ">=18.18.0"
   }
 }
