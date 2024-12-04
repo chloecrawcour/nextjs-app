@@ -89,6 +89,7 @@ const Header = () => {
                   <li><a href="/regions">Regions</a></li>
                   <li><a href="/news">News</a></li>
                   <li><a href="/contact">Contact</a></li>
+                  <li><a href="/properties">Properties</a></li>
                 </ul>
               </nav>
               {/* END MAIN MENU */}
