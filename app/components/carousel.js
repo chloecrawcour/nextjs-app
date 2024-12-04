@@ -1,17 +1,24 @@
 "use client";
 
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
+import React, { useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Carousel = () => {
+  useEffect(() => {
+    // Dynamically import Bootstrap JS to ensure it runs in the browser
+    if (typeof window !== 'undefined') {
+      import('bootstrap/dist/js/bootstrap.bundle.min.js').catch(err => 
+        console.error("Bootstrap JS loading error:", err)
+      );
+    }
+  }, []);
+
   return (
     <div
       id="carousel-example-generic"
       className="carousel slide"
       data-bs-ride="carousel"
     >
-
       {/* Wrapper for slides */}
       <div className="carousel-inner">
         <div
@@ -42,20 +49,17 @@ const Carousel = () => {
             height: '605px',
           }}
         >
-            <div className="carousel-caption">
-              <div className="caption sfr slider-title">The Simple Life</div>
-              <div className="caption sfl slider-subtitle">
-                Lush gardens in Mordor
-              </div>
-              <a href="#" className="caption sfb btn btn-default btn-lg">
-                Learn More
-              </a>
+          <div className="carousel-caption">
+            <div className="caption sfr slider-title">The Simple Life</div>
+            <div className="caption sfl slider-subtitle">
+              Lush gardens in Mordor
             </div>
+            <a href="#" className="caption sfb btn btn-default btn-lg">
+              Learn More
+            </a>
+          </div>
         </div>
       </div>
-
-        {/* Blue Filter */}
-        <div id="home-search-section"></div>
 
       {/* Controls */}
       <button
