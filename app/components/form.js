@@ -38,6 +38,8 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form">
+      {/* Heading */}
+      <h1 className="section-title">Contact Us</h1>
       {/* show success message */}
       {isSubmitted && <div className="alert alert-success">Form submitted successfully!</div>}
       
